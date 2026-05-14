@@ -98,7 +98,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     role: "Senior Software Engineer",
-    company: "Enterprise / Hospitality / Media Clients",
+    company: "Cefalo Bangladesh Ltd.",
     period: "Jul 2016 — May 2025",
     bullets: [
       "Architected enterprise applications and accelerated load times by 40%.",
@@ -121,7 +121,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     role: "UX Developer",
-    company: "Agency Projects",
+    company: "SELISE Digital Platforms",
     period: "Nov 2011 — Jun 2014",
     bullets: [
       "Delivered UI for interactive web, desktop, and iOS apps — measurable user-satisfaction lift.",
@@ -131,7 +131,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     role: "Software Engineer",
-    company: "CMS & Web Studio",
+    company: "SELISE Digital Platforms",
     period: "Jan 2011 — Oct 2011",
     bullets: [
       "Delivered full-stack solutions on PHP CMS platforms across 20+ small-to-mid client projects.",
@@ -158,8 +158,8 @@ export const PROJECTS: Project[] = [
   {
     title: "Petroleum SaaS Dashboard",
     description:
-      "A SaaS platform for petroleum production analytics — high-density Highcharts visualisations, fast filters, and a UI built to stay calm under information overload.",
-    tech: ["React 18", "TypeScript", "Material UI", "Highcharts"],
+      "A SaaS platform for petroleum production analytics/forcasting — high-density Highcharts visualisations, fast filters, and a UI built to stay calm under information overload.",
+    tech: ["React 18", "TypeScript", "Material UI", "MUI X", "Highcharts", "React Redux"],
     image:
       "https://images.pexels.com/photos/29703885/pexels-photo-29703885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     status: "Live",
@@ -168,7 +168,7 @@ export const PROJECTS: Project[] = [
     title: "Booking Operations Dashboard",
     description:
       "Hospitality booking workflow tool: real-time updates over SignalR, drag-and-drop scheduling, and an audit-friendly event log.",
-    tech: ["Angular", "NestJS", "PostgreSQL", "SignalR"],
+    tech: ["Angular", "NestJS", "MongoDb", "SignalR"],
     image:
       "https://images.unsplash.com/photo-1762279389042-9439bfb6c155?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwyfHxkYXJrJTIwYWJzdHJhY3QlMjB0ZWNobm9sb2d5JTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3Nzg2MjkwODF8MA&ixlib=rb-4.1.0&q=85",
     status: "Live",
@@ -177,7 +177,7 @@ export const PROJECTS: Project[] = [
     title: "Media Asset Management",
     description:
       "MAM platform that lifted content-delivery speed 30% — chunked uploads, smart previews, and a UI that scales to enterprise asset libraries.",
-    tech: ["React", "Redux Saga", "Node.js", "PostgreSQL"],
+    tech: ["React", "Redux Saga", "SignalR", "Node.js", "PostgreSQL"],
     image:
       "https://images.pexels.com/photos/12707786/pexels-photo-12707786.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     status: "Live",

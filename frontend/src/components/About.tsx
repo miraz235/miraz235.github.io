@@ -6,7 +6,7 @@ const stats = [
   { value: "15+", label: "Years shipping UI" },
   { value: "30+", label: "Enterprise releases" },
   { value: "40%", label: "Faster load (avg.)" },
-  { value: "5+", label: "Industries served" },
+  { value: "3+", label: "Industries served" },
 ];
 
 const About: React.FC = () => {
