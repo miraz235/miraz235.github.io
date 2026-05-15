@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Mail, Linkedin, Phone, MapPin, Send, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { PROFILE } from "../data/resume";
-import { sendContactInfo } from "../lib/api";
+import { sendEmail } from "../lib/api";
 
 const Contact: React.FC = () => {
   const [contactInfo, setContactInfo] = useState({
@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
     }
     setLoading(true);
     try {
-      await sendContactInfo(contactInfo);
+      await sendEmail(contactInfo);
       toast.success("Message sent — I'll reply soon.");
       setContactInfo({ name: "", email: "", message: "" });
     } catch (err: any) {
