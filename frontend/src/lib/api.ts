@@ -25,11 +25,15 @@ export const apiClient: AxiosInstance = axios.create({
  * Send email via EmailJS
  */
 export const sendEmail = async (info: ContactInfo): Promise<void> => {
-  console.log("Sending email with info:", info, { serviceId: EMAILJS_SERVICE_ID, templateId: EMAILJS_TEMPLATE_ID });
-  const r = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, info as unknown as Record<string, unknown>, {
-    publicKey: EMAILJS_PUBLIC_KEY,
-  });
-  console.log("EmailJS response:", r);
+  try {
+    await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, info as unknown as Record<string, unknown>, {
+      publicKey: EMAILJS_PUBLIC_KEY,
+    });
+  } catch (e) {
+    console.log("Sending email with info:", info, { serviceId: EMAILJS_SERVICE_ID, templateId: EMAILJS_TEMPLATE_ID });
+    console.error("EmailJS error:", e);
+    throw e;
+  }
 };
 
 /**
