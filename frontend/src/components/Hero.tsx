@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             data-testid="hero-tagline"
           >
             <span className="font-serif italic text-primary-ink">Senior Front-End Engineer</span>{" "}
-            with <span className="text-primary-ink">{PROFILE.yearsOfExperience} years</span> shipping
+            with <span className="text-primary-ink">{PROFILE.yearsOfExperience}+ years</span> shipping
             intuitive, fast, human-centred interfaces — recently obsessed with AI-augmented workflows
             and agent-based automation.
           </motion.p>
@@ -88,9 +88,9 @@ const Hero: React.FC = () => {
             <span className="inline-flex items-center gap-2">
               <MapPin size={12} /> {PROFILE.location}
             </span>
-            <span>EST / Remote-friendly</span>
+            <span>Remote-friendly</span>
             <span className="hidden sm:inline">
-              15Y · React · TS · AI
+              10+Y · React · TS · AI
             </span>
           </motion.div>
         </div>

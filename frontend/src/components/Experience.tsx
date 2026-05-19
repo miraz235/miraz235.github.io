@@ -15,7 +15,7 @@ const Experience: React.FC = () => {
             02 / Experience
           </div>
           <h2 className="font-serif text-4xl sm:text-5xl mt-4 leading-[1]">
-            A <span className="italic">15-year</span> trail.
+            A <span className="italic">10+ year</span> trail.
           </h2>
           <p className="mt-4 text-sm text-secondary-ink max-w-xs">
             From PHP CMS to AI-augmented React — the through-line has always been:

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ABOUT, PROFILE } from "../data/resume";
 
 const stats = [
-  { value: "15+", label: "Years shipping UI" },
+  { value: "10+", label: "Years shipping UI" },
   { value: "30+", label: "Enterprise releases" },
   { value: "40%", label: "Faster load (avg.)" },
   { value: "3+", label: "Industries served" },

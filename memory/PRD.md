@@ -1,7 +1,7 @@
 # Asraful Karim — Portfolio (miraz235.github.io)
 
 ## Original Problem Statement
-Build a single-page portfolio inspired by https://fahri.nextjs.fahri.my.id/ using React + TypeScript + Tailwind. Recruiter-friendly, one-page, easy to deploy to GitHub Pages, easy to expand later. Resume info pulled from the uploaded PDF (Asraful Karim, Senior Front-End Engineer, 15y experience).
+Build a single-page portfolio inspired by https://fahri.nextjs.fahri.my.id/ using React + TypeScript + Tailwind. Recruiter-friendly, one-page, easy to deploy to GitHub Pages, easy to expand later. Resume info pulled from the uploaded PDF (Asraful Karim, Senior Front-End Engineer, 10+y experience).
 
 ## Tech Stack
 - Frontend: React 19 + TypeScript + TailwindCSS + Framer Motion + lucide-react + sonner

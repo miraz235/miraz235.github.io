@@ -29,18 +29,18 @@ export const PROFILE = {
   initials: "AK",
   title: "Senior Front-End Engineer",
   tagline: "I build intuitive, fast, human-centred interfaces — with a soft spot for AI-augmented workflows.",
-  location: "Burnaby, BC · Canada",
+  location: "BC · Canada",
   email: "miraz235.work@gmail.com",
   phone: "+1 (257) 999-0535",
   linkedin: "https://linkedin.com/in/miraz235",
   github: "https://github.com/miraz235",
   photo:
     "https://media.licdn.com/dms/image/v2/D5603AQEewPCTjws9MA/profile-displayphoto-scale_400_400/B56Zf6aLM8HYAk-/0/1752252857258?e=1779926400&v=beta&t=Dcovu74YCILVYkBCek6yK31Mtz4TRgIypk-p_fjZV2M",
-  yearsOfExperience: 15,
+  yearsOfExperience: 10,
   availability: "Available for senior / staff roles",
 };
 
-export const ABOUT = `Fifteen years in, I still get a quiet thrill from shipping a button that finally feels right.
+export const ABOUT = `Ten plus years in, I still get a quiet thrill from shipping a button that finally feels right.
 I'm a Senior Front-End Engineer who's spent the last decade and a half leading architecture, mentoring teams, and turning fuzzy product ideas into interfaces people actually enjoy using — from Norway-based SaaS for petroleum production, to Swiss e-governance, to enterprise booking and media systems.
 Lately I've been blending classic UI craft with AI-driven workflows — agent-based automation, MCP servers, and a lot of prompt-engineering — because the best interfaces in the next decade will be the ones that quietly think with the user.`;
 
