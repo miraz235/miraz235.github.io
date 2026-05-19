@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Phone, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin } from "lucide-react";
 import { PROFILE } from "../data/resume";
 
 const Contact: React.FC = () => {
